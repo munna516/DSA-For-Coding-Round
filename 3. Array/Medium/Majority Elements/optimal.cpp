@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 // TC -> O(n) + O(n)   & SC -> O(1)
-int majority(vector<int> &v, int n)
+int majority(vector<int> &v, int n) // this is more voting element algorithm
 {
     int cnt = 0, element;
     for (int i = 0; i < n; i++)
