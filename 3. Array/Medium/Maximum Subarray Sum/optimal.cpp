@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 // TC -> O(n)  & SC -> O(1)
-int maxsubarraysum(vector<int> &v, int n)
+int maxsubarraysum(vector<int> &v, int n) // Using Kadane's algorithm for max subarray sum
 {
     int maxi = LONG_MIN;
     long long sum = 0;
